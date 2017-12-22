@@ -1,0 +1,200 @@
+/* Empty. Add your own CSS if you like */
+
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+} 
+
+.item1 {
+    border-color: #ddd;
+    background-color: rgba(255, 255, 255, 0);
+
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0px;
+    padding: 8px;
+    border-width: 0px !important;
+    border-style: solid !important;
+    font-size: 16px;
+  /*background-image: url(../img/pat2.png) !important;*/
+
+    /*border-bottom: 2px solid grey;*/
+}
+
+
+.border_box{
+    background-color: rgba(250, 235, 215, 0.38);
+    border-bottom: 2px solid gray;
+}
+
+.border_style {
+    border-bottom: 2px solid grey !important;
+}
+
+.shadow{
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  /*text-align: center;*/
+}
+
+.sign_up {
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+
+.padding-12{
+	padding: 12px;
+}
+.input-label {
+    display: table;
+    padding: 7px 10px 7px 0px;
+    max-width: 200px;
+    width: 50% !important; 
+    color: #444;
+    font-size: 16px;
+}
+
+.float-right{
+	float: right;
+}
+
+.margin-top-35{
+	margin-top: 35px !important;
+}
+
+
+.margin-top-12{
+	margin-top: 12px !important;
+}
+
+.margin-top-50{
+	margin-top: 50px !important;
+}
+
+.image_class {
+    /* max-height: 150px; */
+    /* max-width: 200px; */
+    width: 155px;
+    height: 65px;
+}
+
+.image_class1 {
+    /* max-height: 150px; */
+    /* max-width: 200px; */
+    width: 15px;
+    height: 65px;
+}
+
+.margin-bottom-6 {
+    margin-bottom: -6px;
+}
+.violet{
+	background-color: #000080;
+}
+
+
+.color-ash{
+color: grey;
+}
+.bg-pat2{
+  background-image: url(../img/pat2.png) !important;
+  
+}
+
+
+.bg{
+  background-image: url(../img/ws.jpg) !important;
+  
+}
+
+
+.color-teal{
+  background-color: #007777;
+  
+}
+
+
+.color-teal1{
+  background-color: #004444;
+  
+}
+
+
+
+
+.bg-white{
+  background-color: white !important;
+  
+}
+
+.color-white{
+  color: white;
+  
+}
+
+
+.button-class_a{
+    color: azure;
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding-top: 7px;
+}
+
+.modal_class{
+    border: 2px solid white;
+    border-radius: 22px;
+    height: 333px;
+    background: white;
+}
+
+.cancel-modal-dim {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.button_class{
+    background-color: grey;
+    border-radius: 4px;
+}
+
+
+.float-left{
+    float: left !important;
+}
+
+.font-size-15{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.margin-left-89{
+    margin-left: 89px;
+}
+
+.margin-left-121{
+    margin-left: 121px;
+}
+
+.text-align-center{
+	text-align: center !important;
+}
+
+.start1-cont-style {
+    /* background-color: #fff; */
+    /* width: 100% !important; */
+    height: 300px;
+    min-height: 240px;
+    margin-top: 28px;
+    /* border-radius: 6px; */
+}
+
+
+

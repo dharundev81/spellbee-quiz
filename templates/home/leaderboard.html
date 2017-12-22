@@ -1,0 +1,103 @@
+<div view-title="Got" ng-controller="home">
+  <div class="hero-bkg-animated-ab-l">
+ 
+
+ <!-- <center class="font-20 p-left-3 m-bottom-1 font-class3"> 
+ leader Board
+</center> -->
+<div class="row bg-head m-left-0" >
+        <div class="col-md-12 ">
+            <center><div ng-include="'templates/home-new/home-desk.html'"></div></center>
+        </div>
+    </div>
+
+<div class="row ">
+	<div class="col-md-12 margin-top--30">
+		<center>
+			<p class="new_button1 border-box bg_color1" ui-sref="user.leaderboard"> 
+				<span class="bg_ash font-18 font-bold">LEADERSHIP BOARD</span>
+			</p>
+		</center>
+	</div>
+</div>
+<div class="list mp-top-10">
+
+<div class="row">
+	<div class="col">
+		<div class="font-class18">
+			User Name
+		</div>
+	</div>
+	<div class="col">
+		<div class="font-class18">
+			HighScore
+		</div>
+	</div>
+</div>
+
+ <!--  <a class="item1" ng-repeat="list in leaderboard_data">
+ <div class="row">
+ 	<div class="col">
+ 		 <div class="font-class18">{{list.username}}</div> 
+ 	</div>
+ 	<div class="col">
+ 		 <div class="font-class18">{{list.score}}</div> 
+ 	</div>
+ </div> 
+  </a> -->
+
+  		<div ng-repeat="list in leaderboard_data">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+                    <div class="row">
+						<div class="col-md-1">
+							<div  style="float:left; margin-left:25px; margin-top: 6px">
+									<img src="img/star.png" class="star" style="width:97px; height:97px" >
+							</div>
+						</div>
+						<div class="col-md-11 position-inherit">
+							<div class="leader_box bg_color_leader_box mp-top-5 " >
+								<div class="row" ng-click="addontoggle(list.spell_bee_id)">
+									<div class="col-md-3 star1 m-left--15" style="margin-left:-50px">
+										<div class="font-20 font-bold"><p>{{$index + 1}}</p>
+										</div>
+									</div>
+									<div class="col-md-5">
+										<!-- <div  style="float:left">
+												<img src="img/star.png" style="width:50%">
+										</div> -->
+										<div class="font-bold font-18">{{list.username}}</div>
+		
+									</div>
+		
+									<div class="col-md-2 mp-top-2">
+										<i class="ion-chevron-down font-12"></i>
+									</div>
+		
+									<div class="col-md-2">
+										<div class="font-bold font-18">{{list.score}}</div>
+									</div>
+					
+								</div>
+								<div class="row dnone addontoggle{{list.spell_bee_id}}">
+									<div class="col-md-6 ">
+										<h5>{{list.school_name}}</h5>
+									</div>
+									<div class="col-md-6 ">
+										<h5>{{list.city}}</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+</div>
+
+
+
+</div>
+</div>

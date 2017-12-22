@@ -1,0 +1,64 @@
+<ion-view view-title="Got" ng-controller="home">
+  <ion-content class="hero-bkg-animated-ab-l" scroll=false style="padding-bottom:30px;">
+ 
+  <!-- <div class="row">
+    <div class="col" align="left">
+      <span ui-sref="user.home">
+        <i class="ion-chevron-left ion-chevron-left font-bold font-class3" ></i>
+        <i class="ion-chevron-left ion-chevron-left font-bold font-class3" ></i>
+
+      </span>
+    </div>
+  </div> -->
+  <div class="row bg-head m-left-0" >
+      <div class="col-md-12 ">
+          <center><div ng-include="'templates/home-new/home-desk.html'"></div></center>
+      </div>
+  </div>
+	<div class="bg-level pp-all-6 container" style="height:580px;" >
+  
+      <center class="font-20 p-left-3 m-bottom-10 font-class"> 
+      Levels
+      </center>
+
+        <!-- <div>
+           <img src="img/spellsmall.png" class="img_logo2">
+         </div> -->
+         <div class="overflow-y levels"  style="height:380px;">
+      <center>
+        <div class="row" ng-repeat="i in getNumber(myNumber) track by $index "  ng-if="$index % 7 == 0">
+        <div class="col "  ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3, $index + 4, $index + 5, $index + 6]">  
+        <div ng-show="i < myNumber">
+            <img ng-show="i < current_set"   src="img/bookopenwithtick.png" class="width-100"  id="image" />         
+             <!-- {{current_set <= current_set}}-{{i}}-{{current_set}}--{{$index}} -->
+          <img  src="img/bookclose.png"  ng-hide="i < current_set || i == current_set " class="width-115" id="image2" /> 
+          <img  src="img/Bookopen.png" ng-show="i == current_set" class="width-100" id="image2" / ng-click="new_question(i+1)">   
+
+    <span>level {{i + 1}}</span>
+        </div> 
+               </div>
+      <!--   <div class="col"> 
+          <img src="img/box opened.png" class="width-100"><span>level 2</span>
+
+        </div>
+        <div class="col"> 
+          <img src="img/box opened.png" class="width-100"><span>level 3</span>
+        </div>
+        <div class="col"> 
+          <img src="img/closed box.png" class="width-100"><span>level 4</span>
+        </div>
+        <div class="col"> 
+          <img src="img/closed box.png" class="width-100"> <span>level 5</span>
+        </div> -->
+      </div>
+      </center>
+      </div>
+      
+        
+  </div>
+
+
+
+
+  </ion-content>
+</ion-view>
